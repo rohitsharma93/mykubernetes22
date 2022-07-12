@@ -7,6 +7,6 @@ spec:
   ports:
   - port: 80
     nodePort: 30001
-    prortocol: TCP
+    protocol: TCP
   selector:
      app: mynginx
