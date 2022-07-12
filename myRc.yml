@@ -12,7 +12,7 @@ spec:
           app: mynginx
     spec:
       containers:
-        - name: myfirst-container
-          image: mynginx
+        - name: mynginx-container
+          image: nginx
           ports:
             - containerPort: 80
