@@ -8,7 +8,8 @@ spec:
     app: mynginx
   template:
     metadata:
-      name: mynginx
+      labels: 
+          app: mynginx
     spec:
       containers:
         - name: myfirst-container
